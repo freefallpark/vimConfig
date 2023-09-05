@@ -24,7 +24,7 @@ set cursorline
 
 " Add matchit
 "source ~/.vim/
-helptags ~/.vim/doc
+"helptags ~/.vim/doc
 
 " Add matlab syntax 
 autocmd BufEnter *.m compiler mlint
