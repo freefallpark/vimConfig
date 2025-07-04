@@ -69,3 +69,5 @@ augroup ReadOnlyColors
   autocmd VimEnter,ColorScheme * hi ReadOnly guifg=white guibg=red
 augroup END
 
+" Set Column width indicator
+set colorcolumn=100
