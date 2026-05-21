@@ -30,7 +30,7 @@ set cursorline
 autocmd BufEnter *.m compiler mlint
 
 " Allow vim 'p' paste from linux clipboard
-set clipboard=unamed
+set clipboard=unnamedplus
 
 " Shift pages up or down with ctl k or ctl j 
 nmap <C-j> <C-down>
