@@ -16,10 +16,8 @@
 "}}}
 
 if exists("b:did_indent")
-    finish
+    unlet b:did_indent
 endif
-let b:did_indent = 1
-
 
 function! GoogleCppIndent()
     let l:cline_num = line('.')

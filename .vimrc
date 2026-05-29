@@ -1,15 +1,6 @@
 " Disable compatibility with vi whic hcan cause unexpected issues:
 set nocompatible
 
-" Enable type file detection. Vim will be able to try to detect file type
-filetype on
-
-" enable plugins and load plugin for the detected file type
-filetype plugin on
-
-" Load an indent file for the detected file type.
-filetype indent on
-
 " Turn on Syntax highlighting
 syntax on
 
@@ -71,3 +62,13 @@ augroup END
 
 " Set Column width indicator
 set colorcolumn=100
+
+" Enable type file detection. Vim will be able to try to detect file type
+filetype on
+
+" enable plugins and load plugin for the detected file type
+filetype plugin on
+
+" Load an indent file for the detected file type.
+filetype indent on
+
